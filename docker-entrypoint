@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+cp -r /blogs /mkdocs
+
+exec "${@}"
+

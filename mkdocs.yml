@@ -1,0 +1,45 @@
+site_name: 기술 문서
+site_url: https://rekcleml.duckdns.org/
+# site_url: https://rekcle.com/blog/
+site_dir: blogs
+nav:
+  - Back: https://rekcleml.duckdns.org/
+  - Home: index.md
+  - About: about.md
+  - License: LICENSE.md
+  - 'User Guide':
+      - 'Getting started': 'user-guide/getting-started.md'
+      - 'Testing': 'user-guide/testing.md'
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+
+    # # Palette toggle for light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+    #
+    # # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to system preference
+        
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
